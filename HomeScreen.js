@@ -7,7 +7,7 @@ import {
   FlatList,
   Image
 } from "react-native";
-import Header from "./components/Header";
+import Header from "Header";
 import Icon from "@expo/vector-icons/MaterialCommunityIcons";
 
 const DATA = [
