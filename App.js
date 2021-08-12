@@ -2,10 +2,10 @@ import React from "react";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import Icon from "@expo/vector-icons/MaterialCommunityIcons";
-import HomeScreen from "./src/HomeScreen";
-import LibraryScreen from "./src/LibraryScreen";
-import SubscriptionScreen from "./src/SubscriptionScreen";
-import TrendingScreen from "./src/TrendingScreen";
+import HomeScreen from "HomeScreen";
+import LibraryScreen from "LibraryScreen";
+import SubscriptionScreen from "SubscriptionScreen";
+import TrendingScreen from "TrendingScreen";
 
 const TabNavigator = createBottomTabNavigator(
   {
